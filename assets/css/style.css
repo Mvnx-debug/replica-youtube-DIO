@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 40px;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+    margin: 5px;
+    height: 20px;
+    margin-left: 20px;
+}
+.barra p{
+    gap: 1px;
+    margin-left: 30px;
+    padding: 0;
+    width: 6px;
+    height: 4px;
+}
+img{
+    width: 126px;
+    height: 30px;
+    display: flex;
+}
+.img{
+    display: flex;
+    position: absolute;
+    margin-left:100px;
+}
+.video{
+    margin: 120px 100px;  
+    margin-right: 60px; 
+    margin-left: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.video-img{
+    width: 798px;
+    height: 448px;
+}
+h5{
+    font-size: 1.0rem;
+}
+.content-canal{
+    display: flex;
+    gap: 5px;
+}
+.nome-canal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.logo-canal{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.nome-canal h6{
+    font-size: 0.8rem;
+}
+.nome-canal p{
+    font-size: 0.8rem;
+}
+.btn{
+    display: flex;
+    margin-left: 84px;
+    gap: 20px;
+    border: none;
+}
+.btn button{
+    background-color: #cc0000;
+    color:white;
+    font-weight: bold;
+    border:none;
+    border-radius: 2px;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    width: 159px;
+    height: 40px;
+}
+.btn button:hover{
+    background-color: #a30000;
+}
+.acoes {
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    margin-top: 15px;
+}
+
+.acoes button {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.acoes button:hover {
+    background-color: #dcdcdc;
+}
+
+.acoes i {
+    font-size: 18px;
+}
+.like-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px; /* espaço entre ícone e texto */
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.text{
+    font-size: 14px;
+    display: inline;
+    white-space: nowrap;
+}
+.dislike-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px; /* espaço entre ícone e texto */
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.text2{
+    font-size: 14px;
+    display: inline;
+    white-space: nowrap;
+}
+.description{
+    margin-top: 10px;
+    font-size: 1.0rem;
+    width: 580px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.description h6{
+    font-size: 0.9rem;
+
+}
+.recomend{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;  
+    gap: 40px;
+}
+.name-video{
+    display: flex;
+    gap:10px;
+    height: 90px;
+}
+.tam-video{
+    width:160px;
+    height: 90px;
+}
+.name-video p{
+    font-size: 14px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 4px;
+}
+.info p{
+    font-weight: bold;
+}
+.search-container{
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 500px;
+}
+.search-input{
+    width: 404px;
+    height: 30px;
+}
+.search-btn{
+    height: 34px;
+}
